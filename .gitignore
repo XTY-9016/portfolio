@@ -1,0 +1,22 @@
+# 操作系统与编辑器垃圾文件
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*~
+
+# Office / CAD 临时与锁文件
+~$*
+*.lck
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+
+# 说明：projects/**/images|videos|docs 里的材料都要入库，
+# 因此本文件不忽略任何项目材料；如需临时存放未脱敏材料，
+# 请放在仓库外的目录，或使用下面的 local-raw/（已被忽略）。
+local-raw/
+
+# 项目材料（projects/**）全部入库，不在此忽略；未脱敏的原始件请放在仓库外
